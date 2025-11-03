@@ -44,7 +44,7 @@ __________________
 1. Entra al repositorio en GitHub.  
 2. Haz clic en el botón verde **"Code" → "Download ZIP"**.  
 3. Descomprime el archivo ZIP en tu computadora.  
-4. Abre la carpeta del proyecto (por ejemplo `concesionario/`) en tu editor o terminal.  
+4. Abre la carpeta del proyecto (por ejemplo `concesionarioPOOpython/`) en tu editor o terminal.  
 5. Dentro de esa carpeta deben estar los archivos:
 vehiculo.py
 automovil.py
