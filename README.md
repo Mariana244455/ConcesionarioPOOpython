@@ -29,36 +29,17 @@ concesionario
 __________________
 
 
-## ⚙️ Requisitos previos
+##  Requisitos previos
 
 - Python  instalado en el sistema operativo.  
 - Un editor o entorno para ejecutar código Python (por ejemplo **Visual Studio Code**, **PyCharm**, o la terminal del sistema).  
 - No requiere librerías externas, solo Python estándar.
 
-## 🚀 Cómo ejecutar el programa
-
-### Opción 1: Clonar el repositorio desde GitHub
-
-1. Abre una terminal o consola.  
-2. Clona el repositorio ejecutando:
-git clone https://github.com/TU_USUARIO/concesionario-poo-python.git
-
-css
-Copiar código
-3. Ingresa a la carpeta del proyecto:
-cd concesionario-poo-python
-
-markdown
-Copiar código
-4. Ejecuta el programa principal:
-python main.py
-
-yaml
-Copiar código
+## Cómo ejecutar el programa
 
 ---
 
-### Opción 2: Descargar los scripts manualmente
+###  Descargar los scripts 
 
 1. Entra al repositorio en GitHub.  
 2. Haz clic en el botón verde **"Code" → "Download ZIP"**.  
@@ -70,22 +51,13 @@ automovil.py
 moto.py
 main.py
 
-markdown
-Copiar código
+
 6. Desde la terminal, ejecuta el programa principal con:
 python main.py
 
-yaml
-Copiar código
-7. Si Python no está en tu PATH o usas Windows, también puedes ejecutar:
-py main.py
-
-yaml
-Copiar código
-
 ---
 
-## 🧩 Ejemplo de salida esperada
+##  salida esperada
 
 Automovil | Toyota Yaris ($40000.00) | 5 puertas | Final: $43200.00
 Automovil | Mazda 3 ($27000.00) | 4 puertas | Final: $29160.00
@@ -94,21 +66,6 @@ Moto | BMW G310R ($20000.00) | 313 cc | Final: $21800.00
 
 Valor total del inventario: $106760.00
 
-yaml
-Copiar código
 
 ---
 
-## 🧠 Conceptos aplicados de Programación Orientada a Objetos
-
-- **Encapsulamiento:** Los atributos de las clases están protegidos y se accede a ellos mediante métodos o propiedades.  
-- **Herencia:** Las clases `Automovil` y `Moto` heredan la estructura y métodos de la clase abstracta `Vehiculo`.  
-- **Abstracción:** `Vehiculo` define un método abstracto `impuesto()` que las clases hijas implementan según sus reglas.  
-- **Polimorfismo:** El programa maneja una lista de objetos `Vehiculo` que pueden ser `Automovil` o `Moto`, ejecutando el método correcto en cada caso.
-
----
-
-## 💡 Créditos
-
-Proyecto desarrollado por **Magis**, estudiante de ingeniería, como ejercicio académico para aplicar los conceptos de Programación Orientada a Objetos en Python.  
-Diseñado para comprender la estructura modular, el uso de clases y la relación entre objetos en un entorno práctico.
