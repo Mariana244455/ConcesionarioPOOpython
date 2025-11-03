@@ -29,32 +29,9 @@ concesionario
 __________________
 
 
-
-
-
-
-
-
-# Mini Sistema de Concesionario en Python
-
-**Nombre:** Magis  
-**Fecha:** Noviembre 2025  
-
-Este proyecto implementa un mini sistema de concesionario de vehículos en Python, aplicando los cuatro pilares fundamentales de la Programación Orientada a Objetos (POO): encapsulamiento, herencia, abstracción y polimorfismo. El sistema permite crear diferentes tipos de vehículos (automóviles y motos), calcular su precio final incluyendo impuestos específicos según su tipo y mostrar una ficha descriptiva de cada uno, además del valor total del inventario. Está diseñado para ser claro, modular y fácilmente ampliable.
-
-## 📁 Estructura del proyecto
-
-concesionario/
-├── vehiculo.py # Clase abstracta padre (Vehiculo)
-├── automovil.py # Clase hija Automovil
-├── moto.py # Clase hija Moto
-└── main.py # Script principal que ejecuta el sistema
-
-
-
 ## ⚙️ Requisitos previos
 
-- Python **3.8 o superior** instalado en el sistema operativo.  
+- Python  instalado en el sistema operativo.  
 - Un editor o entorno para ejecutar código Python (por ejemplo **Visual Studio Code**, **PyCharm**, o la terminal del sistema).  
 - No requiere librerías externas, solo Python estándar.
 
